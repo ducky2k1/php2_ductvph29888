@@ -19,6 +19,7 @@ class  Field {
         return sprintf('
         <div class="form-group">
         <label>%s</label>
+        <br>
         <input type="%s" name="%s">
         </div>',
         $this->getLabel($this->attribute),
